@@ -256,6 +256,7 @@ Through this project, I gained hands-on experience with:
 * Distributed systems fundamentals
 
 ## build commands
+```bash
 mvn spring-boot:run
 
 start kafka docker container
@@ -330,4 +331,4 @@ docker exec -it kafka bash
 --create \
 --topic orders-dlt \
 --bootstrap-server localhost:9092
-
+```
